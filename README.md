@@ -35,6 +35,7 @@ export PINGPP_LOG=debug
 ### 设置请求签名密钥
 密钥需要你自己生成，公钥请填写到 [Ping++ Dashboard](https://dashboard.pingxx.com)  
 设置你的私钥路径
+
 ```python
 pingpp.private_key_path = '/path/to/your_rsa_private_key.pem'
 ```
@@ -841,3 +842,7 @@ pingpp.CardInfo.query(
 ```
 
 **详细信息请参考 [API 文档](https://pingxx.com/document/api?python)。**
+
+流程图
+
+<img src="http://qiniu.s001.xin/9ibio.jpg">
